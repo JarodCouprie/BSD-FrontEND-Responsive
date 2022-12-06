@@ -7,6 +7,15 @@
     list-style-type: none;
 }
 
+main{
+    background-color: #000000;
+}
+
+section{
+    display: grid;
+    place-items: center;
+}
+
 #section-1{
     background-color: green;
 }
