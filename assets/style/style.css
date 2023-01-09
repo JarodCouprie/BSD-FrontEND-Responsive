@@ -1,8 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
+body{
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }
+
+.link-button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    color: #471323;
+    border: 2px solid #471323;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.link-button:hover{
+    color: antiquewhite;
+    background-color: #471323;
+}
+
