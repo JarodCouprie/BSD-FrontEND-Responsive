@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -9,7 +11,6 @@ header{
     display: none;
 }
 
-
 @media (width > 800px) {
     header{
         display: block;
@@ -17,24 +18,25 @@ header{
 }
 
 p{
-    height: 300px;
+    min-height: 460px;
     width: 300px;
     border-radius: 30px;
     background-color: #f3c3b1;
     padding: 20px;
+    text-align: justify;
 }
 
 section{
-    height: 800px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    padding: 20px;
 }
 
 @media (width < 650px){
     section{
         flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -43,10 +45,13 @@ footer{
     width: 100%;
     background-color: #f3c3b1;
     display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-@media print{
+@media print {
     footer{
-        display: block;
+    display: block;
     }
 }
