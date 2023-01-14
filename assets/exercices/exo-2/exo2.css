@@ -1,6 +1,7 @@
 body{
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #111;
     color: #f1f1f1;
     font-family: sans-serif;
@@ -35,4 +36,21 @@ sup{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (width > 800px) {
+    section{
+        width: auto;
+    }
+    .following-days{
+        flex-direction: column;
+    }
+    hr{
+        display: none;
+    }
+    .following-days-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
