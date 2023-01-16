@@ -10,18 +10,18 @@ body{
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    background-color: antiquewhite;
+    background-color: #471323;
     cursor: pointer;
     display: grid;
     place-items: center;
-    color: #471323;
+    color: #d9d9d9;
     border: 2px solid #471323;
     text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .link-button:hover{
-    color: antiquewhite;
-    background-color: #471323;
+    color: #471323;
+    background: #d9d9d9;
+    transform: rotate(-10deg);
 }
-

@@ -1,0 +1,23 @@
+body{
+    background-color: #111;
+}
+
+.container{
+    width: 100vw;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.rows{
+    width: auto;
+}
+
+.col-xs-1{
+    width: calc(100%/12);
+}
+
+.col-xs-2{
+    width: calc(200%/12);
+}
